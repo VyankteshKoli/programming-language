@@ -32,9 +32,9 @@ public class BinarySearch {
 
         int result = binarySearch(arr, target);
         if (result == -1) {
-            System.out.println("Element not present in array");
+            System.out.println("Element are Not Present in The Array !");
         } else {
-            System.out.println("Element found at index " + result);
+            System.out.println("Element are Found at Index:- " + result);
         }
     }
 }
