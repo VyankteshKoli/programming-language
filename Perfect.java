@@ -1,4 +1,6 @@
 import java.util.*;
+import java.io.*;
+import java.Scanner;
 class Perfect
 {
     void check(int s,int k,int n)
@@ -6,9 +8,9 @@ class Perfect
         if(k==n)
           {
               if(s==n)
-                 System.out.print("perfect no.");
+                 System.out.println("Perfect No.");
                  else
-                    System.out.print("Not perfect");
+                    System.out.println("Not Perfect");
               return;
             }
             else
@@ -27,7 +29,7 @@ class Perfect
         Scanner sc=new Scanner(System.in);
         Perfect ob=new Perfect();
         int no;
-        System.out.println("Enter number");
+        System.out.println("Enter Number:-");
         no=sc.nextInt();
         ob.check(0,1,no);
     }
