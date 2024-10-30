@@ -5,7 +5,7 @@ class Emirp
     {
         Scanner sc=new Scanner(System.in);
         int n,c=0,c2=0,r=0,i,c1;
-        System.out.println("Enter no.");
+        System.out.println("Enter No:- ");
         n=sc.nextInt();
         
         for(i=1;i<=n;i++)
